@@ -12,7 +12,7 @@ void loop(){
     Serial.print(ldrStatus);
   }
   else{
-    digitalWrite(ledPin,LOW);
+    digitalWrite(13,LOW);
     Serial.print("Its bright, Turn off the Led:");
     Serial.print(ldrStatus);
   }
