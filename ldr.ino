@@ -1,6 +1,3 @@
-const int ledPin = 13;
-const int ldrPin=A0;
-
 void setup(){
   serial.begin(9600);
   pinMode(13, OUTPUT);
