@@ -12,7 +12,7 @@ void loop(){
     digitalWrite(9,HIGH);
     delay(500);
     if(state = LOW){
-      serial.print("Motion detected");
+      Serial.print("Motion detected");
       state = HIGH;
     }
   }
@@ -20,7 +20,7 @@ void loop(){
     digitalWrite(9,LOW);
     delay(500);
     if(state = HIGH){
-      serial.print("Motion stopped");
+      Serial.print("Motion stopped");
       state = LOW;
     }
   }
